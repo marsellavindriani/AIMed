@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { NavigationItem } from "@/types"
 
-import ISysLogo from "../isys-logo"
 import DesktopNavigation from "./desktop-navigation"
 import MobileNavigation from "./mobile-navigation"
 
