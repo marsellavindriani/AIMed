@@ -10,7 +10,7 @@ export default function ISysLogo({ compact = false }: { compact?: boolean }) {
                   alt="AIMed"
                   width={54}
                   height={54}
-                  className="size-12 object-contain sm:size-15"
+                  className="h-6 w-24 object-contain sm:h-12"
                 />
       </Link>
     )
@@ -22,8 +22,8 @@ export default function ISysLogo({ compact = false }: { compact?: boolean }) {
                 <Image
                   src="/LogoAIMed-Fix-01.svg"
                   alt="AIMed"
-                  width={44}
-                  height={44}
+                  width={54}
+                  height={54}
                   className="h-6 w-24 object-contain sm:h-12"
                 />
     </Link>
