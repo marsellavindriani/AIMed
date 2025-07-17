@@ -2,7 +2,6 @@ import Link from "next/link"
 import { client } from "@/sanity/client"
 import * as demo from "@/sanity/demo"
 import { settingsQuery } from "@/sanity/queries"
-import { toPlainText } from "next-sanity"
 
 import { Settings } from "@/types/sanity.types"
 import Statcounter from "@/app/statcounter"
@@ -14,8 +13,6 @@ const options = { next: { revalidate: 30 } }
 
 export default async function Footer() {
   const settings = await client.fetch<Settings>(settingsQuery, {}, options)
-
-  const description = settings?.description || demo.description
 
   const links = [
     {
