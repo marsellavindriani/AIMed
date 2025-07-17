@@ -6,9 +6,6 @@ import { client } from "@/sanity/client"
 import * as demo from "@/sanity/demo"
 import { settingsQuery } from "@/sanity/queries"
 import { resolveOpenGraphImage } from "@/sanity/utils"
-import { GoogleAnalytics } from "@next/third-parties/google"
-import { Analytics } from "@vercel/analytics/react"
-
 import { Settings } from "@/types/sanity.types"
 import { openSans, poppins } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
@@ -71,8 +68,8 @@ export default async function RootLayout({
         </Providers>
 
         <Toaster position="bottom-center" />
-        <Analytics />
-        <GoogleAnalytics gaId="G-YTFEEL0LRW" />
+        {/* <Analytics />
+        <GoogleAnalytics gaId="G-YTFEEL0LRW" /> */}
         <TailwindIndicator />
       </body>
     </html>

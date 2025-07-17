@@ -6,7 +6,7 @@ export default function Statcounter() {
 
   return (
     <>
-      <script
+      {/* <script
         type="text/javascript"
         dangerouslySetInnerHTML={{
           __html: `
@@ -31,7 +31,7 @@ export default function Statcounter() {
             referrerPolicy="no-referrer-when-downgrade"
           />
         </a>
-      </div>
+      </div> */}
     </>
   )
 }
