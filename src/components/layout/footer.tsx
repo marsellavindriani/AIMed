@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { client } from "@/sanity/client"
-import * as demo from "@/sanity/demo"
 import { settingsQuery } from "@/sanity/queries"
 
 import { Settings } from "@/types/sanity.types"
